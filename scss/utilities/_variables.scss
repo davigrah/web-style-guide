@@ -15,6 +15,21 @@ $lightgreen: #63cc82;
 //BREAKPOINTS -----------------------------------
 $breakpoint: 768px;
 
+//COMPONENTS -----------------------------------
+$themes: (
+    '1': $purple,    
+    '2': $orange,
+    '3': $lightpurple,
+    '4': #7ee6fd,
+    '5': #88d9a0,
+    '6': #4da2bb,
+    '7': #ec9fa3,
+    '8': #fd9f85,
+    '9': #e4757a,
+    '10':#63cc82,
+    '11': #51ddfc,
+    '12': #80e8d1,
+    );
 
 //MEDIA QUERIES -----------------------------------
 $grid: (
