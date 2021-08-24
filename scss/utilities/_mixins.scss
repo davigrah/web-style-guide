@@ -1,0 +1,16 @@
+@mixin img-config ($mh: null, $pd: null, $bd: null){
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    max-width: 100%;
+    max-height: $mh;
+    padding: $pd;
+    border: $bd;
+}
+
+@mixin center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

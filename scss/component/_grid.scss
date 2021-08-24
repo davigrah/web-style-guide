@@ -22,7 +22,7 @@
   
   
   @each $theme, $color in $themes {  
-    .col-#{$theme} {
+    .col-#{$theme}.theme {
       background-color: $color;
     }
   }
